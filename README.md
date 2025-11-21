@@ -28,17 +28,22 @@ A customizable LLM assistant deployed with Gradio, compatible with any OpenRoute
 ## Installation
 
 ```bash
+
 pip install -r requirements.txt
+
+```
 Make sure you set your OpenRouter API key as an environment variable:
 
-bash
-Copy code
+
+```Copy code below:
 setx OPENROUTER_API_KEY "your_key_here"
+```
 Or inside the script:
 
-python
-Copy code
+```
 client = OpenAI(
     base_url="https://openrouter.ai/api/v1",
     api_key="your_api_key"
 )
+
+```
