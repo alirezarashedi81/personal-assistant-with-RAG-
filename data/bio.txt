@@ -1,0 +1,136 @@
+BEGIN RESUME
+
+PERSONAL INFORMATION
+Name: Alireza
+Location: London, United Kingdom
+Professional Title: Deep Learning Engineer
+Years of Experience: 2+ years
+Languages: English (fluent), Persian (fluent)
+
+PROFESSIONAL SUMMARY
+I help industries build and deploy machine learning, deep learning, large language models, and computer vision solutions enabling intelligent data analysis, automated client interaction, and real-time CCTV processing. I specialize in production-ready models for object detection, image segmentation, text extraction, gesture-driven interfaces, and generative AI workflows. I deliver end-to-end solutions covering data collection, preprocessing, annotation, training, hyperparameter optimization, containerization, and cloud deployment to ensure scalable and maintainable systems.
+
+CORE SKILLS
+LangChain
+Python
+TensorFlow
+Keras
+PyTorch
+YOLO (including YOLO11)
+OpenCV
+MediaPipe
+SQL
+Data Analysis
+Classification
+Generative AI (Diffusion, GANs, VAEs, Transformers)
+Hyperparameter Tuning
+Data Augmentation and Preprocessing
+Docker
+AutoML
+CNN
+RNN
+QNN
+Azure
+Annotation
+
+PROFESSIONAL EXPERIENCE
+
+Computer Vision Engineer – Freelance Client
+2-week contract
+• Built a real-time vehicle tracking and license plate recognition system.
+• Used YOLO11 to detect and track vehicles in live video feeds.
+• Extracted plate regions and applied PaddleOCR for text detection.
+• Delivered functional pipeline with frame logging and structured output.
+
+Founder and Lead Developer – HandWave (Personal Start-up)
+Ongoing
+• Building a contactless mouse control system using hand gestures.
+• Implemented real-time landmark detection using MediaPipe and OpenCV.
+• Designed smooth cursor movement with EMA filtering, non-linear acceleration, and custom dead-zone logic.
+• Added gesture-based clicks, scrolling, and drag operations.
+• Integrated with Pygame for low-latency simulation.
+
+TECHNICAL PROJECTS
+
+Real-Time Face Recognition System
+• Implemented YOLOv8-Face + FaceNet to detect faces and generate embeddings.
+• Trained SVM classifier for identity recognition.
+• Built live webcam inference with data logging and face storage.
+
+Stock Price Forecasting Using Transformers
+• Built transformer-based forecasting pipeline for real-time predictions.
+• Managed rolling-window preprocessing and time-series augmentation.
+• Benchmarked against LSTM, GRU, and classical methods.
+• Lightweight deployment for live dashboarding.
+
+Cancer Cell Detection System
+• Created detection pipeline using extracted feature vectors.
+• Included preprocessing, augmentation, segmentation, and classifier training.
+• Benchmarked against CNN-based image classification models.
+
+MNIST Denoising with Diffusion Models
+• Implemented diffusion-based autoencoder to denoise handwritten digits.
+• Demonstrated improved clarity versus baseline autoencoders and GANs.
+
+EDUCATION
+Bachelor’s Degree in Computer Science
+Azad University of Bandar Abbas
+
+CERTIFICATIONS
+Advanced Deep Learning Specialist – IBM
+Introduction to Deep Learning with PyTorch – IBM
+Introduction to Deep Learning with TensorFlow and Keras – IBM
+Generative AI and NLP Specialist – IBM
+Machine Learning Specialist – IBM
+
+TOOLS AND PLATFORMS
+Linux
+Git
+GitHub
+Azure ML
+HuggingFace
+Docker and Docker Compose
+Jupyter and Google Colab
+MLflow
+Weights and Biases
+REST APIs
+FastAPI
+ONNX Runtime
+TensorRT (basic)
+
+SOFT SKILLS
+Problem Solving
+Team Collaboration
+Clear Technical Communication
+Rapid Prototyping
+Analytical Thinking
+Remote Work Adaptability
+
+SELECTED ACHIEVEMENTS
+• Improved YOLO-based LPR accuracy to over 97% in varied conditions.
+• Built gesture mouse interface with average latency under 40 ms.
+• Automated scalable pipelines with caching and augmentation.
+• Integrated OCR-based tracking into real-time CCTV environment.
+• Delivered complete client solution within two weeks including training material.
+
+PROGRAMMING LANGUAGES
+Python
+C++ (basic)
+SQL
+Bash
+JSON
+YAML
+
+AVAILABILITY
+Open to new contracts.
+Weekly commitment: Up to 40 hours.
+Timezone: United Kingdom (GMT/BST)
+Preferred communication: Upwork Messages
+
+FUN FACT
+I built a gesture-controlled desktop interface from scratch using the same principles found in smart TV and air gesture technologies.
+
+DOCUMENT UPDATED
+November 10, 2025
+
+END RESUME
