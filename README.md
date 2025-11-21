@@ -25,25 +25,6 @@ A customizable LLM assistant deployed with Gradio, compatible with any OpenRoute
 
 ---
 
-## File Structure
-
-personal-assistant-with-RAG/
-│
-├── src/
-| ├── main.py
-| ├── build_faiss.py
-├── data/
-| ├── bio.txt (the model won't function for you as good as it does for me because of the system prompt)
-| ├── chunks.json
-| ├── faiss_index/
-│  ├── index.faiss
-│  ├── index.pkl
-│
-├── requirements.txt
-├── LICENCE
-└──  README.md
----
-
 ## Installation
 
 
