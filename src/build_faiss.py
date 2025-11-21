@@ -11,7 +11,7 @@ from langchain_openai import OpenAIEmbeddings
 DATA_DIR = "data"
 CHUNKS_PATH = os.path.join(DATA_DIR, "chunks.json")
 FAISS_PATH = os.path.join(DATA_DIR, "faiss_index")
-OPENROUTER_API_KEY = "api_key"
+API_KEY = ""
 
 
 # -----------------------------
@@ -63,7 +63,7 @@ def build_faiss_index(text, save_path=FAISS_PATH):
     embeddings = OpenAIEmbeddings(
         model="text-embedding-3-large",
         base_url="https://openrouter.ai/api/v1",
-        api_key=OPENROUTER_API_KEY
+        api_key=API_KEY
     )
 
     vector_db = FAISS.from_texts(chunks, embeddings)
