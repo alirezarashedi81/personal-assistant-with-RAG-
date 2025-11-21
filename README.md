@@ -36,7 +36,7 @@ Make sure you set your OpenRouter API key as an environment variable:
 
 
 ```Copy code below:
-setx OPENROUTER_API_KEY "your_key_here"
+API_KEY "your_key_here"
 ```
 Or inside the script:
 
