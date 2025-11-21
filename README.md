@@ -47,3 +47,14 @@ client = OpenAI(
 )
 
 ```
+---
+
+## Running the App
+
+after installation run the script below👇 on your terminal and copy the URL
+
+```
+
+python main.py
+
+```
