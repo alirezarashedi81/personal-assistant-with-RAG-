@@ -1,7 +1,6 @@
 import os
 import json
 import gradio as gr
-
 from langchain_community.vectorstores import FAISS
 from langchain_openai import OpenAIEmbeddings
 from openai import OpenAI
@@ -13,6 +12,7 @@ from openai import OpenAI
 
 API_KEY = ""
 YOUR_MODEL_NAME = "" # from OpenRouter
+
 # -----------------------------
 # Load API key
 # -----------------------------
@@ -25,7 +25,7 @@ client = OpenAI(
 
 
 # -----------------------------
-# System Prompt
+# System Prompt (tailored for Alireza)
 # -----------------------------
 SYSTEM_PROMPT = """
 You are a chill and confident personal assistant.
@@ -80,6 +80,7 @@ faiss_index = load_faiss_index()
 # -----------------------------
 # Retrieval
 # -----------------------------
+
 def retrieve(query, k=3):
     docs = faiss_index.similarity_search(query, k=k)
     return [d.page_content for d in docs]
