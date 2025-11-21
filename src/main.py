@@ -107,7 +107,7 @@ def answer_gradio(user_input, chat_history):
     })
 
     response = client.chat.completions.create(
-        model="google/gemini-2.0-flash-exp:free",
+        model=YOUR_MODEL_NAME,
         messages=messages,
         max_tokens=500,
         temperature=0.7
